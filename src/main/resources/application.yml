@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://dev.mongodb.com:27017/blog
+      username: blog
+      password: blog
+
+logging:
+  config: classpath:logback/logback.xml
