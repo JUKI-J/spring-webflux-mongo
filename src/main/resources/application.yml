@@ -1,9 +1,11 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://dev.mongodb.com:27017/blog
+      host: dev.mongodb.com
+      port: 27017
+      database: blog
       username: blog
-      password: blog
+      password: blogtest
 
 logging:
   config: classpath:logback/logback.xml
